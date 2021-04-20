@@ -1,0 +1,277 @@
+body{
+    text-align: center;
+    margin: auto !important;
+    width:1380px;
+    background: white  url('写真/background.png')no-repeat fixed center bottom ;
+	background-size:1380px;
+	width:1380px;
+
+.calen{
+    .calendar{
+        width:1300px;
+        margin: 900px auto 50px auto;
+    }
+    .weekdays {
+        width:1000px;
+        height:20px;
+        margin:auto;
+        padding: 10px 0;
+        background-color: #0285ce;
+        li {
+        display: inline-block;
+        width: 13%;
+        color: white ;
+        text-align: center;
+        font-size:20px;
+        font-weight:bold;
+        }
+    }
+    .days {
+        width:1000px;
+        height:100px;
+        margin: auto;
+        padding: 10px 0;
+        background: #eee;
+        li {
+        list-style-type: none;
+        display: inline-block;
+        width: 13%;
+        text-align: center;
+        margin-bottom: 5px;
+        font-size:12px;
+        color: #777;
+        font-family:UD デジタル 教科書体 N-B;
+        .active {
+        padding: 5px;
+        background: #CC0000;
+        color: white !important
+        }
+        }
+    }
+}
+.newsinfo{
+    margin:auto;
+	width:1000px;
+	display:flex;
+    .news{
+        margin: 100px auto;
+    width:700px;
+    height: 650px;
+    box-sizing: border-box;
+    background:white;
+        .news-word{
+	width:700px;
+	border-bottom:2px solid #044b7c;
+	padding:25px 0px;
+	margin: auto;
+    }
+        table{
+        width:700px; 
+        margin: 0px auto;
+    
+            tr{
+       width:700px;
+       
+            td{
+       padding:10px;
+       
+                .dayofnews{
+	font-size:15px;
+	border-right:2px solid #044b7c;
+	width:100px;
+	height:30px;
+	padding:50px 0px;
+	font-family:"小塚明朝 Pro";
+}
+                .titleofnews{
+	font-size:25px;
+	font-weight:bold;
+	font-family:"小塚明朝 Pro";
+	text-align:left;
+	color: black;
+}
+                .contenofnews{
+	font-size:18px;
+	font-family:"小塚明朝 Pro";
+	margin-left:200px;
+	text-align:left
+}
+                .signofnews{
+	font-size:15px;
+	font-family:"HG正楷書体-PRO";
+	margin-left:300px;
+	margin-top:20px;
+	height:15px;
+	width:300px;
+}}}}
+
+    .viewmore {
+width:100px;
+height:30px;
+border: 1px solid black;
+margin:20px auto;
+border-radius:5px;}
+}
+    .information{
+    position:sticky;
+    margin:auto;
+	height:500px;
+	width:200px;
+	background:#044b7c;
+    .iconofinfo{
+	color:black;
+	width:200px;
+	height:60px;
+	background-color:white;
+	text-align:left;
+	font-size:20px;
+	font-family:小塚ゴシック Pr6N;
+	
+        h3{
+	margin-top:-50px;
+	margin-left:65px;
+                }}
+
+    .titleofinfo{
+    text-align:left;
+                    
+        h4 {
+	margin-top:-50px;
+	margin-left:100px;
+	color:white;
+	font-size:14px;
+	font-family:小塚ゴシック Pr6N;
+           }
+        .icon img{
+	border:auto;
+	border-radius:50px;
+            }
+    }
+}
+}
+.event{
+	background:#92ceff url("background 2.png") no-repeat fixed center bottom ;
+	background-size:1380px;
+	margin:auto;
+	width:1380px;
+	height:1500px;
+    .wordofevent{
+	margin:auto;
+	padding:25px;
+	color:white;
+	border-bottom: 2px solid white;
+	height:50px;
+	width: 200px;
+    }
+    .eventplus{
+	width: 1000px;
+	margin:auto;
+    display:flex;
+        .eventplus1{
+	            width:500px;
+	            margin:auto;
+            img{
+                margin:20px auto;
+	            width:400px;
+	            height:600px;
+                }
+            .eventtitleword1 {
+                    color:#044b7c;
+                    font-family:小塚ゴシック Pr6N;
+                    font-size: 40px;}
+            .eventtitleword2{
+                        margin-left:-50px;
+                        font-family:小塚ゴシック Pr6N;
+                        font-size: 10px;
+                        color:red ;
+                    }
+            }
+    
+        .eventplus2{
+            width:500px;
+            margin:auto;
+        img{
+             margin:20px auto;
+             width:400px;
+             height:600px;
+            }
+        .eventtitleword1 {
+                color:#044b7c;
+                font-family:小塚ゴシック Pr6N;
+                font-size: 40px;}
+        .eventtitleword2{
+                    margin-left:-50px;
+                    font-family:小塚ゴシック Pr6N;
+                    font-size: 10px;
+                    color:red ;
+                }
+        }
+    }
+
+
+
+
+
+.eventtitle3{
+	height:40px;
+	width:1000px;
+	margin: 50px 0px 0px 200px;
+}
+.video{
+	margin-top: 50px;}
+
+    .videovideo{
+	margin-top:50px;
+	height: 220px;
+	width: 1369px;
+	background:black;
+	padding:5px
+    }
+    
+}
+.device{
+    width:1380px;
+	height:2000px;
+	background:#044b7c;
+.deviceword{
+	padding:25px;
+	color:white;
+	border-bottom: 2px solid white;
+	height:50px;
+	width: 200px;
+	margin-left:565px;
+	margin-top:0px;
+}
+.divicetitle{
+	margin-top:100px;
+	margin-bottom:-105px;
+}
+}
+.commu{
+    li{
+        float:left;
+        .commu1{
+            margin: 100px 10px;
+            width:300px;
+            height:60px;
+            border:2px solid #044b7c;
+            background:white;
+            .icon2{
+                margin-left:-150px;
+                img{
+                    margin:5px;
+                    border-radius:200px;
+                
+                }
+             }
+             .iconword{
+                 margin-top:-50px;
+                 font-size:20px;
+                 margin-left:100px;
+             }
+    }}
+    height:60px;
+    width:1380px;
+    
+}
+}

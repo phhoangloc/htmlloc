@@ -1,0 +1,12 @@
+@use'slide-wrapper';
+@use'header';
+@use'body';
+@use'footer';
+li {
+   list-style: none;
+}
+::-webkit-scrollbar { 
+    display: none; }
+ul {
+        margin:0px;
+}

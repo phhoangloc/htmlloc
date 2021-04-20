@@ -1,0 +1,274 @@
+@charset "UTF-8";
+body {
+  text-align: center;
+  margin: auto !important;
+  width: 1380px;
+  background: white url("写真/background.png") no-repeat fixed center bottom;
+  background-size: 1380px;
+  width: 1380px;
+}
+body .calen .calendar {
+  width: 1300px;
+  margin: 900px auto 50px auto;
+}
+body .calen .weekdays {
+  width: 1000px;
+  height: 20px;
+  margin: auto;
+  padding: 10px 0;
+  background-color: #0285ce;
+}
+body .calen .weekdays li {
+  display: inline-block;
+  width: 13%;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+body .calen .days {
+  width: 1000px;
+  height: 100px;
+  margin: auto;
+  padding: 10px 0;
+  background: #eee;
+}
+body .calen .days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+  font-family: UD デジタル 教科書体 N-B;
+}
+body .calen .days li .active {
+  padding: 5px;
+  background: #CC0000;
+  color: white !important;
+}
+body .newsinfo {
+  margin: auto;
+  width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .newsinfo .news {
+  margin: 100px auto;
+  width: 700px;
+  height: 650px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: white;
+}
+body .newsinfo .news .news-word {
+  width: 700px;
+  border-bottom: 2px solid #044b7c;
+  padding: 25px 0px;
+  margin: auto;
+}
+body .newsinfo .news table {
+  width: 700px;
+  margin: 0px auto;
+}
+body .newsinfo .news table tr {
+  width: 700px;
+}
+body .newsinfo .news table tr td {
+  padding: 10px;
+}
+body .newsinfo .news table tr td .dayofnews {
+  font-size: 15px;
+  border-right: 2px solid #044b7c;
+  width: 100px;
+  height: 30px;
+  padding: 50px 0px;
+  font-family: "小塚明朝 Pro";
+}
+body .newsinfo .news table tr td .titleofnews {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "小塚明朝 Pro";
+  text-align: left;
+  color: black;
+}
+body .newsinfo .news table tr td .contenofnews {
+  font-size: 18px;
+  font-family: "小塚明朝 Pro";
+  margin-left: 200px;
+  text-align: left;
+}
+body .newsinfo .news table tr td .signofnews {
+  font-size: 15px;
+  font-family: "HG正楷書体-PRO";
+  margin-left: 300px;
+  margin-top: 20px;
+  height: 15px;
+  width: 300px;
+}
+body .newsinfo .news .viewmore {
+  width: 100px;
+  height: 30px;
+  border: 1px solid black;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+body .newsinfo .information {
+  position: -webkit-sticky;
+  position: sticky;
+  margin: auto;
+  height: 500px;
+  width: 200px;
+  background: #044b7c;
+}
+body .newsinfo .information .iconofinfo {
+  color: black;
+  width: 200px;
+  height: 60px;
+  background-color: white;
+  text-align: left;
+  font-size: 20px;
+  font-family: 小塚ゴシック Pr6N;
+}
+body .newsinfo .information .iconofinfo h3 {
+  margin-top: -50px;
+  margin-left: 65px;
+}
+body .newsinfo .information .titleofinfo {
+  text-align: left;
+}
+body .newsinfo .information .titleofinfo h4 {
+  margin-top: -50px;
+  margin-left: 100px;
+  color: white;
+  font-size: 14px;
+  font-family: 小塚ゴシック Pr6N;
+}
+body .newsinfo .information .titleofinfo .icon img {
+  border: auto;
+  border-radius: 50px;
+}
+body .event {
+  background: #92ceff url("background 2.png") no-repeat fixed center bottom;
+  background-size: 1380px;
+  margin: auto;
+  width: 1380px;
+  height: 1500px;
+}
+body .event .wordofevent {
+  margin: auto;
+  padding: 25px;
+  color: white;
+  border-bottom: 2px solid white;
+  height: 50px;
+  width: 200px;
+}
+body .event .eventplus {
+  width: 1000px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .event .eventplus .eventplus1 {
+  width: 500px;
+  margin: auto;
+}
+body .event .eventplus .eventplus1 img {
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+}
+body .event .eventplus .eventplus1 .eventtitleword1 {
+  color: #044b7c;
+  font-family: 小塚ゴシック Pr6N;
+  font-size: 40px;
+}
+body .event .eventplus .eventplus1 .eventtitleword2 {
+  margin-left: -50px;
+  font-family: 小塚ゴシック Pr6N;
+  font-size: 10px;
+  color: red;
+}
+body .event .eventplus .eventplus2 {
+  width: 500px;
+  margin: auto;
+}
+body .event .eventplus .eventplus2 img {
+  margin: 20px auto;
+  width: 400px;
+  height: 600px;
+}
+body .event .eventplus .eventplus2 .eventtitleword1 {
+  color: #044b7c;
+  font-family: 小塚ゴシック Pr6N;
+  font-size: 40px;
+}
+body .event .eventplus .eventplus2 .eventtitleword2 {
+  margin-left: -50px;
+  font-family: 小塚ゴシック Pr6N;
+  font-size: 10px;
+  color: red;
+}
+body .event .eventtitle3 {
+  height: 40px;
+  width: 1000px;
+  margin: 50px 0px 0px 200px;
+}
+body .event .video {
+  margin-top: 50px;
+}
+body .event .videovideo {
+  margin-top: 50px;
+  height: 220px;
+  width: 1369px;
+  background: black;
+  padding: 5px;
+}
+body .device {
+  width: 1380px;
+  height: 2000px;
+  background: #044b7c;
+}
+body .device .deviceword {
+  padding: 25px;
+  color: white;
+  border-bottom: 2px solid white;
+  height: 50px;
+  width: 200px;
+  margin-left: 565px;
+  margin-top: 0px;
+}
+body .device .divicetitle {
+  margin-top: 100px;
+  margin-bottom: -105px;
+}
+body .commu {
+  height: 60px;
+  width: 1380px;
+}
+body .commu li {
+  float: left;
+}
+body .commu li .commu1 {
+  margin: 100px 10px;
+  width: 300px;
+  height: 60px;
+  border: 2px solid #044b7c;
+  background: white;
+}
+body .commu li .commu1 .icon2 {
+  margin-left: -150px;
+}
+body .commu li .commu1 .icon2 img {
+  margin: 5px;
+  border-radius: 200px;
+}
+body .commu li .commu1 .iconword {
+  margin-top: -50px;
+  font-size: 20px;
+  margin-left: 100px;
+}
+/*# sourceMappingURL=body.css.map */

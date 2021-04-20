@@ -1,0 +1,71 @@
+.picture{
+    margin:  auto;
+    width: 1380px;
+}
+.commu{
+    li{
+        float:left;
+        .commu1{
+            margin: 100px 10px;
+            width:300px;
+            height:60px;
+            border:2px solid #044b7c;
+            background:white;
+            .icon2{
+                margin-left:-150px;
+                img{
+                    margin:5px;
+                    border-radius:200px;
+                
+                }
+             }
+             .iconword{
+                 margin-top:-50px;
+                 font-size:20px;
+                 margin-left:100px;
+             }
+    }}
+    height:60px;
+    width:1380px;
+    margin:auto;
+}
+h1{
+    margin:50px auto;
+    width: 1380px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:cornflowerblue;
+    border-bottom:4px dotted cornflowerblue ;
+}
+.device{
+    
+    background:white ;
+    width: 1380px;
+    margin: 0px auto;
+    display: flex;
+    border-bottom: 4px dotted #49bded;
+    .device-list{
+        width: 1000px;
+        margin: 100px auto 100px auto;
+        img{
+        margin-left: 0px;
+        }
+    }
+    .device-title{
+        transition: 2s;
+        margin: 100px auto 100px auto;
+        width: 250px;
+        height:423px;
+        h2{
+        font-family:"UD デジタル 教科書体 NP-B";
+        font-size: 30px;
+        font-weight:bold;
+        color:black;
+        }
+        a{
+        color: blue;
+        font-size: 15px;
+        }
+    }
+}
+

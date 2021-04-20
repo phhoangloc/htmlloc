@@ -1,0 +1,159 @@
+.picture{
+    margin:  auto;
+    width: 1380px;
+}
+.commu{
+    li{
+        float:left;
+        .commu1{
+            margin: 100px 10px;
+            width:300px;
+            height:60px;
+            border:2px solid #044b7c;
+            background:white;
+            .icon2{
+                margin-left:-150px;
+                img{
+                    margin:5px;
+                    border-radius:200px;
+                
+                }
+             }
+             .iconword{
+                 margin-top:-50px;
+                 font-size:20px;
+                 margin-left:100px;
+             }
+    }}
+    height:60px;
+    width:1380px;
+    margin:auto;
+}
+h1{
+    margin:50px auto;
+    width: 1380px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color:#044b7c;
+    border-bottom:4px dotted #044b7c ;
+}
+.daihoru{
+  width: 1200px;
+  ul{
+    li {
+      list-style:block;}
+  }
+#slideshow {
+    overflow: hidden;
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 100px 100px;
+  
+  .slide-wrapper {
+    width: 6000px;
+    animation: slide 20s ease infinite;
+  .slide {
+    float: left;
+    height: 600px;
+    width: 1000px;
+  }}}
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 40px;
+    color:#044b7c;
+    width: 550px;
+    height: 40px;
+    margin-left:700px;
+    padding-bottom: 10px;
+    
+
+}
+  
+  @keyframes slide {
+    20% {margin-left: -1000px;}
+    30% {margin-left: -2000px;}
+    50% {margin-left: -3000px;}
+    60% {margin-left: -4000px;}
+    80% {margin-left: -5000px;}
+    
+  }
+  .pic{
+    width: 1000px;
+    margin:auto;
+  }
+  h3{
+    width:400px;
+    font-family: Noto Sans JP Light;
+    font-size: 20px;
+    color:#0093fc;
+    border-bottom: 2px solid #0093fc;
+    padding-bottom: 10px;
+    margin: 50px auto;
+  }
+  h4{
+    font-family: Noto Sans JP Light;
+    color:#0093fc;
+  }
+  p{
+    width:800px;
+    margin:auto;
+    text-align: left;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;}
+    a{
+    text-decoration: none;
+    color: blue;
+    font-family: 'Noto Sans JP', sans-serif;
+    }
+  table{
+      width: 800px;
+      margin: 10px auto;
+      border: 1px dotted #044b7c;
+      border-collapse: collapse;
+      th{
+        background-color:#cdeaff;
+        border: 2px dotted #044b7c;}
+        td{
+            width: 300px;
+            border: 2px dotted #044b7c;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+          }
+        tr > :first-child{
+            width: 130px;
+            height: auto;
+        }
+      }
+.hallmap{
+  td{
+      width:100px;
+  }
+}
+.price{
+td{
+  width: 100px;
+}
+}
+.hallmaps{
+  
+td{
+  width: 515px;
+}
+}
+ul{
+  width:800px;
+  text-align: left;
+  margin: auto;
+  li{
+    list-style: disc;
+  }
+}
+.accesslist{
+  width:450px;
+  margin:auto;
+  li{
+    list-style: decimal;
+  }
+}
+}

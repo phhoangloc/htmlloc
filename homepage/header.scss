@@ -1,0 +1,53 @@
+.header{
+    margin: 10px auto;
+    height: 150px;
+    width:1300px;
+    box-sizing: border-box;
+    background:#E9F3FF;
+    opacity: 0.8;
+    border-radius:25px;
+    box-shadow: 10px 10px 10px grey;
+    
+    .header-logo1{
+        font-size:50px;
+        color:blue;
+        padding:50px 10px 15px 15px;
+        float: left;
+        font-family:UD デジタル 教科書体 NP-B;
+        font-weight:bold;
+        height:200px;
+        width:100px;
+    }
+    #menubar{
+        display: none;
+    }
+    .header-list-2 {
+        text-align: right ;
+        font-size:20px;
+        font-family:UD デジタル 教科書体 N-B;
+        font-weight:bold;
+        a{text-decoration: none;
+            color:black;
+        p{margin-top: 10px;}}
+        .header-list-1{
+            height: 80px;
+            li{
+                padding:5px 10px;
+                float: right;
+            }
+        }
+        .header-list{
+            height: 80px;
+            li{
+                padding :5px 10px;
+                float: right;
+            }
+            li:hover{
+                top:-20px;
+                font-size: 25px;
+                color: cadetblue;
+            }
+            }
+        }
+
+}

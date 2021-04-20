@@ -1,0 +1,16 @@
+.slide-wrapper{
+    height:auto;
+	overflow:auto;
+	width: 1380px;
+	height:800px;
+	display:flex;
+	scroll-snap-type:x mandatory;
+	margin: 0px auto -800px auto;
+
+
+    .slide {
+	scroll-snap-align: start;
+     width: 1380px;
+}
+
+}

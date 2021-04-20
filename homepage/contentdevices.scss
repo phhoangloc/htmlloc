@@ -1,0 +1,19 @@
+@use 'header';
+@use'footer';
+@use'newslistdevices';
+@use'devicelist';
+.content{
+    width: 1380px;
+    height: auto;
+    display:flex;
+    margin:auto;
+}
+li {
+    list-style: none;
+}
+ul {
+    margin:0px;
+}
+::-webkit-scrollbar {
+    display: none;
+}

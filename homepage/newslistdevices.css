@@ -1,0 +1,182 @@
+.picture {
+  margin: auto;
+  width: 1380px;
+}
+
+.commu {
+  height: 60px;
+  width: 1380px;
+  margin: auto;
+}
+.commu li {
+  float: left;
+}
+.commu li .commu1 {
+  margin: 100px 10px;
+  width: 300px;
+  height: 60px;
+  border: 2px solid #044b7c;
+  background: white;
+}
+.commu li .commu1 .icon2 {
+  margin-left: -150px;
+}
+.commu li .commu1 .icon2 img {
+  margin: 5px;
+  border-radius: 200px;
+}
+.commu li .commu1 .iconword {
+  margin-top: -50px;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+h1 {
+  margin: 50px auto;
+  width: 1380px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #044b7c;
+  border-bottom: 4px dotted #044b7c;
+}
+
+.daihoru {
+  width: 1200px;
+}
+.daihoru ul li {
+  list-style: block;
+}
+.daihoru #slideshow {
+  overflow: hidden;
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 100px 100px;
+}
+.daihoru #slideshow .slide-wrapper {
+  width: 6000px;
+  -webkit-animation: slide 20s ease infinite;
+          animation: slide 20s ease infinite;
+}
+.daihoru #slideshow .slide-wrapper .slide {
+  float: left;
+  height: 600px;
+  width: 1000px;
+}
+.daihoru h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 40px;
+  color: #044b7c;
+  width: 550px;
+  height: 40px;
+  margin-left: 700px;
+  padding-bottom: 10px;
+}
+@-webkit-keyframes slide {
+  20% {
+    margin-left: -1000px;
+  }
+  30% {
+    margin-left: -2000px;
+  }
+  50% {
+    margin-left: -3000px;
+  }
+  60% {
+    margin-left: -4000px;
+  }
+  80% {
+    margin-left: -5000px;
+  }
+}
+@keyframes slide {
+  20% {
+    margin-left: -1000px;
+  }
+  30% {
+    margin-left: -2000px;
+  }
+  50% {
+    margin-left: -3000px;
+  }
+  60% {
+    margin-left: -4000px;
+  }
+  80% {
+    margin-left: -5000px;
+  }
+}
+.daihoru .pic {
+  width: 1000px;
+  margin: auto;
+}
+.daihoru h3 {
+  width: 400px;
+  font-family: Noto Sans JP Light;
+  font-size: 20px;
+  color: #0093fc;
+  border-bottom: 2px solid #0093fc;
+  padding-bottom: 10px;
+  margin: 50px auto;
+}
+.daihoru h4 {
+  font-family: Noto Sans JP Light;
+  color: #0093fc;
+}
+.daihoru p {
+  width: 800px;
+  margin: auto;
+  text-align: left;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+}
+.daihoru a {
+  text-decoration: none;
+  color: blue;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.daihoru table {
+  width: 800px;
+  margin: 10px auto;
+  border: 1px dotted #044b7c;
+  border-collapse: collapse;
+}
+.daihoru table th {
+  background-color: #cdeaff;
+  border: 2px dotted #044b7c;
+}
+.daihoru table td {
+  width: 300px;
+  border: 2px dotted #044b7c;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+.daihoru table tr > :first-child {
+  width: 130px;
+  height: auto;
+}
+.daihoru .hallmap td {
+  width: 100px;
+}
+.daihoru .price td {
+  width: 100px;
+}
+.daihoru .hallmaps td {
+  width: 515px;
+}
+.daihoru ul {
+  width: 800px;
+  text-align: left;
+  margin: auto;
+}
+.daihoru ul li {
+  list-style: disc;
+}
+.daihoru .accesslist {
+  width: 450px;
+  margin: auto;
+}
+.daihoru .accesslist li {
+  list-style: decimal;
+}
+/*# sourceMappingURL=newslistdevices.css.map */

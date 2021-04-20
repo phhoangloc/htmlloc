@@ -1,0 +1,12 @@
+@use 'header';
+@use'footer';
+@use'newslist';
+li {
+    list-style: none;
+}
+ul {
+    margin:0px;
+}
+::-webkit-scrollbar {
+    display: none;
+  }

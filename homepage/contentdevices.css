@@ -1,0 +1,322 @@
+@charset "UTF-8";
+.header {
+  margin: 10px auto;
+  height: 150px;
+  width: 1300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #E9F3FF;
+  opacity: 0.8;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px grey;
+}
+.header .header-logo1 {
+  font-size: 50px;
+  color: blue;
+  padding: 50px 10px 15px 15px;
+  float: left;
+  font-family: UD デジタル 教科書体 NP-B;
+  font-weight: bold;
+  height: 200px;
+  width: 100px;
+}
+.header #menubar {
+  display: none;
+}
+.header .header-list-2 {
+  text-align: right;
+  font-size: 20px;
+  font-family: UD デジタル 教科書体 N-B;
+  font-weight: bold;
+}
+.header .header-list-2 a {
+  text-decoration: none;
+  color: black;
+}
+.header .header-list-2 .header-list-1 {
+  height: 80px;
+}
+.header .header-list-2 .header-list-1 li {
+  padding: 5px 10px;
+  float: right;
+}
+.header .header-list-2 .header-list {
+  height: 80px;
+}
+.header .header-list-2 .header-list li {
+  padding: 5px 10px;
+  float: right;
+}
+.header .header-list-2 .header-list li:hover {
+  top: -20px;
+  font-size: 25px;
+  color: cadetblue;
+}
+
+footer {
+  width: 1380px;
+  height: 400px;
+  background: white url("写真/footer.png") no-repeat fixed center bottom;
+  background-size: 1380px auto;
+  margin: 150px auto 0px auto;
+}
+footer img {
+  padding-right: 880px;
+  border-bottom: 3px solid #92ceff;
+}
+footer .navf {
+  font-family: "Noto Sans JP";
+  font-size: 13px;
+  text-align: left;
+  float: left;
+}
+footer .navf1 {
+  font-family: "Noto Sans JP";
+  font-size: 13px;
+  float: left;
+  text-align: left;
+}
+footer .footer3 {
+  width: 1380px;
+  margin: 230px auto 10px auto;
+  font-size: 12px;
+}
+
+.picture {
+  margin: auto;
+  width: 1380px;
+}
+
+.commu {
+  height: 60px;
+  width: 1380px;
+  margin: auto;
+}
+.commu li {
+  float: left;
+}
+.commu li .commu1 {
+  margin: 100px 10px;
+  width: 300px;
+  height: 60px;
+  border: 2px solid #044b7c;
+  background: white;
+}
+.commu li .commu1 .icon2 {
+  margin-left: -150px;
+}
+.commu li .commu1 .icon2 img {
+  margin: 5px;
+  border-radius: 200px;
+}
+.commu li .commu1 .iconword {
+  margin-top: -50px;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+h1 {
+  margin: 50px auto;
+  width: 1380px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: #044b7c;
+  border-bottom: 4px dotted #044b7c;
+}
+
+.daihoru {
+  width: 1200px;
+}
+.daihoru ul li {
+  list-style: block;
+}
+.daihoru #slideshow {
+  overflow: hidden;
+  height: 600px;
+  width: 1000px;
+  margin: 0 auto;
+  border-radius: 100px 100px;
+}
+.daihoru #slideshow .slide-wrapper {
+  width: 6000px;
+  -webkit-animation: slide 20s ease infinite;
+          animation: slide 20s ease infinite;
+}
+.daihoru #slideshow .slide-wrapper .slide {
+  float: left;
+  height: 600px;
+  width: 1000px;
+}
+.daihoru h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 40px;
+  color: #044b7c;
+  width: 550px;
+  height: 40px;
+  margin-left: 700px;
+  padding-bottom: 10px;
+}
+@-webkit-keyframes slide {
+  20% {
+    margin-left: -1000px;
+  }
+  30% {
+    margin-left: -2000px;
+  }
+  50% {
+    margin-left: -3000px;
+  }
+  60% {
+    margin-left: -4000px;
+  }
+  80% {
+    margin-left: -5000px;
+  }
+}
+@keyframes slide {
+  20% {
+    margin-left: -1000px;
+  }
+  30% {
+    margin-left: -2000px;
+  }
+  50% {
+    margin-left: -3000px;
+  }
+  60% {
+    margin-left: -4000px;
+  }
+  80% {
+    margin-left: -5000px;
+  }
+}
+.daihoru .pic {
+  width: 1000px;
+  margin: auto;
+}
+.daihoru h3 {
+  width: 400px;
+  font-family: Noto Sans JP Light;
+  font-size: 20px;
+  color: #0093fc;
+  border-bottom: 2px solid #0093fc;
+  padding-bottom: 10px;
+  margin: 50px auto;
+}
+.daihoru h4 {
+  font-family: Noto Sans JP Light;
+  color: #0093fc;
+}
+.daihoru p {
+  width: 800px;
+  margin: auto;
+  text-align: left;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 15px;
+}
+.daihoru a {
+  text-decoration: none;
+  color: blue;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.daihoru table {
+  width: 800px;
+  margin: 10px auto;
+  border: 1px dotted #044b7c;
+  border-collapse: collapse;
+}
+.daihoru table th {
+  background-color: #cdeaff;
+  border: 2px dotted #044b7c;
+}
+.daihoru table td {
+  width: 300px;
+  border: 2px dotted #044b7c;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+}
+.daihoru table tr > :first-child {
+  width: 130px;
+  height: auto;
+}
+.daihoru .hallmap td {
+  width: 100px;
+}
+.daihoru .price td {
+  width: 100px;
+}
+.daihoru .hallmaps td {
+  width: 515px;
+}
+.daihoru ul {
+  width: 800px;
+  text-align: left;
+  margin: auto;
+}
+.daihoru ul li {
+  list-style: disc;
+}
+.daihoru .accesslist {
+  width: 450px;
+  margin: auto;
+}
+.daihoru .accesslist li {
+  list-style: decimal;
+}
+
+.devicelist {
+  top: 1px;
+  width: 150px;
+  height: 580px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+.devicelist h2 {
+  width: 150px;
+  height: 50px;
+  font-size: 25px;
+  text-align: left;
+  color: #044b7c;
+  border-bottom: 2px dotted black;
+}
+.devicelist ul {
+  padding: 0px;
+}
+.devicelist ul li {
+  margin: 0px;
+  width: 150px;
+  height: 50px;
+  border-bottom: 2px dotted black;
+  text-align: left;
+}
+.devicelist ul li h3 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: black;
+}
+.devicelist ul li h3:hover {
+  color: darkcyan;
+}
+
+.content {
+  width: 1380px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=contentdevices.css.map */

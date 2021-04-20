@@ -1,0 +1,59 @@
+@charset "UTF-8";
+.header {
+  margin: 10px auto;
+  height: 150px;
+  width: 1300px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #E9F3FF;
+  opacity: 0.8;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 10px grey;
+          box-shadow: 10px 10px 10px grey;
+}
+.header .header-logo1 {
+  font-size: 50px;
+  color: blue;
+  padding: 50px 10px 15px 15px;
+  float: left;
+  font-family: UD デジタル 教科書体 NP-B;
+  font-weight: bold;
+  height: 200px;
+  width: 100px;
+}
+.header #menubar {
+  display: none;
+}
+.header .header-list-2 {
+  text-align: right;
+  font-size: 20px;
+  font-family: UD デジタル 教科書体 N-B;
+  font-weight: bold;
+}
+.header .header-list-2 a {
+  text-decoration: none;
+  color: black;
+}
+.header .header-list-2 a p {
+  margin-top: 10px;
+}
+.header .header-list-2 .header-list-1 {
+  height: 80px;
+}
+.header .header-list-2 .header-list-1 li {
+  padding: 5px 10px;
+  float: right;
+}
+.header .header-list-2 .header-list {
+  height: 80px;
+}
+.header .header-list-2 .header-list li {
+  padding: 5px 10px;
+  float: right;
+}
+.header .header-list-2 .header-list li:hover {
+  top: -20px;
+  font-size: 25px;
+  color: cadetblue;
+}
+/*# sourceMappingURL=header.css.map */

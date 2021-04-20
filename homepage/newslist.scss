@@ -1,0 +1,190 @@
+.newslist{  
+    display: flex;
+    width: 1380px;
+    margin:auto;
+    .newslist2{
+        width: 600px;
+        text-align:left;
+        margin: 100px 10px 0px auto;
+        
+    h1{     font-family: 'Times New Roman', Times, serif;
+            font-size: 30px;
+            color:cornflowerblue;
+            border-bottom:4px dotted cornflowerblue ;
+            margin: 50px auto;
+        
+        }
+
+            
+    }
+    .newslist1{
+    width: 600px;
+    text-align:left;
+    margin: 100px 10px 0px auto;
+    h1{
+        
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color:cornflowerblue;
+        border-bottom:4px dotted cornflowerblue ;
+        margin: 20px auto;
+    } 
+    h2{
+        width:auto;
+        font-family: Noto Sans JP Light;
+        font-size: 20px;
+        color:#0093fc;
+        margin: 20px 0px;
+      }
+    h3{
+        font-family: Noto Sans JP Light;
+        color:#0093fc;
+      }
+    p{
+        width:600px;
+        margin:auto;
+        text-align: left;
+        font-family: 'Noto Sans JP', sans-serif;
+        font-size: 15px;}
+    a{
+        text-decoration: none;
+        color: blue;
+        font-family: 'Noto Sans JP', sans-serif;
+        }
+        .payback{
+            img{
+                width: 50px;
+            }
+        }
+
+         table{
+            width: 600px;
+            margin: 10px auto;
+            border: 1px dotted #044b7c;
+            border-collapse: collapse;
+            th{
+              background-color:#cdeaff;
+              border: 2px dotted #044b7c;}
+              td{
+                  width: 300px;
+                  border: 2px dotted #044b7c;
+                  text-align: center;
+                  font-family: 'Times New Roman', Times, serif;
+                }
+              tr > :first-child{
+                  text-align: left;
+                  width: 450px;
+                  height: auto;
+              }
+         }
+    .access{
+        .map{
+            td{
+                text-align: center;
+                width:200px;
+            }
+            img{
+                width: 100px;
+            }
+        }
+    }
+    img{
+        width: 600px;
+        margin: auto;
+    }
+
+    tr p {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        padding: 0px 10px 10px 10px;
+        border-bottom: 2px dotted gray;
+        margin: 15px auto 0px auto;
+    }
+    .park{
+        tr > :first-child{
+        text-align: left;
+        width: 100px;
+        height: auto;
+
+        }
+    }
+    
+    ul{
+        width:600px;
+        text-align: left;
+        margin: auto;
+        li{
+          width: 560px;
+          list-style: disc;
+        }
+      }
+    }
+.information{
+    top:10px;
+    position: sticky;
+    margin:130px auto 0px 10px;
+	height:500px;
+	width:200px;
+	background:#044b7c;
+    .iconofinfo{
+	color:black;
+	width:200px;
+	height:60px;
+	background-color:white;
+	text-align:left;
+	font-size:20px;
+	font-family:小塚ゴシック Pr6N;
+	
+        h3{
+	margin-top:-50px;
+	margin-left:65px;
+                }}
+
+    .titleofinfo{
+    text-align:left;
+                    
+        h4 {
+	margin-top:-50px;
+	margin-left:100px;
+	color:white;
+	font-size:14px;
+	font-family:小塚ゴシック Pr6N;
+           }
+        .icon img{
+	border:auto;
+	border-radius:50px;
+            }
+        }
+    }}
+.picture{
+    margin:  auto;
+    width: 1380px;
+}
+.commu{
+    li{
+        float:left;
+        .commu1{
+            margin: 100px 10px;
+            width:300px;
+            height:60px;
+            border:2px solid #044b7c;
+            background:white;
+            .icon2{
+                margin-left:-150px;
+                img{
+                    margin:5px;
+                    border-radius:200px;
+                
+                }
+             }
+             .iconword{
+                 margin-top:-50px;
+                 font-size:20px;
+                 margin-left:100px;
+             }
+    }
+}
+    height:60px;
+    width:1380px;
+    margin:auto;
+}
